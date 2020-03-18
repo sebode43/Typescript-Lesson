@@ -1,4 +1,8 @@
 "use strict";
+function f() {
+    var ctrl = document.getElementById("out");
+    ctrl.innerText = "500";
+}
 var a = 0;
 var b = 1;
 function X() {
@@ -30,7 +34,3 @@ var Customer = /** @class */ (function () {
     };
     return Customer;
 }());
-function i() {
-    var ctrl = document.getElementById("out");
-    ctrl.innerText = "500";
-}

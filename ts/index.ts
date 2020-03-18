@@ -1,3 +1,8 @@
+function f() {
+    let ctrl = document.getElementById("out");
+    ctrl.innerText = "500";
+}
+
 let a = 0;
 let b = 1;
 function X(){
@@ -33,9 +38,4 @@ class Customer {
     print() : void{
         console.log(`${this.name}`);
     }  
-}
-
-function i(){
-    let ctrl = document.getElementById("out");
-    ctrl.innerText = "500";
 }
