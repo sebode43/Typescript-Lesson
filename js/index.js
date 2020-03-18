@@ -30,3 +30,7 @@ var Customer = /** @class */ (function () {
     };
     return Customer;
 }());
+function i() {
+    var ctrl = document.getElementById("out");
+    ctrl.innerText = "500";
+}

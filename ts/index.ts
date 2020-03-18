@@ -34,3 +34,8 @@ class Customer {
         console.log(`${this.name}`);
     }  
 }
+
+function i(){
+    let ctrl = document.getElementById("out");
+    ctrl.innerText = "500";
+}
